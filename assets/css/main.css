@@ -1638,12 +1638,15 @@ input, select, textarea {
 		}
 		/*추가*/
 		#top>.container>.row>.col-8{
-			width:300px;
-			height:150px;
+			position:absolute;
+			top:50%; left:50%;
+			transform:translate(-50%, -68%);
+			width:280px;
+			height:70%;
 			box-sizing:border-box;
 			border:solid 5px skyblue;
-			border-radius:100px;
-			margin:20px auto 0;
+			border-radius:90px;
+			margin:2% auto 0;
 			padding:0;
 			background-color:#444;
 		}
@@ -2021,6 +2024,11 @@ input, select, textarea {
 
 
 		/*추가한 부분 시작*/
+
+		#top.wrapper.style1{
+			position:relative;
+			padding-top:2%;
+		}
 		
 		
 		.wrapper.style2 > .container{
@@ -2031,10 +2039,71 @@ input, select, textarea {
 			margin-left:23px;
 		}
 
+		.row1{
+			display:flex;
+			flex-flow:row wrap;
+			justify-content:center;
+		}
+
+		.style5{position:relative;}
+		.style5>h3{
+			position:absolute;
+			top:32%; left:50%;
+			transform:translateX(-50%);
+			font-size:1.5em;
+		}
+		.style5>div{
+			display:flex;
+			flex-flow:row wrap;
+			justify-content:center;
+			width:80%;
+			height:10%;
+			margin:-25px auto 25px;
+		}
+		.style5>div>.use{
+			width:20%;
+			margin-right:10px;
+		}
+		.style4>div>.use:last-child{margin-right:0px;}
+
+		.style5>p{
+			color:#444;
+			font-size:1.1em;
+			font-weight:600;
+		}
+		.style4{position:relative;}
+		.style4>h3{
+			position:absolute;
+			top:32%; left:50%;
+			transform:translateX(-50%);
+			font-size:1.5em;
+		}
+		.style4>div{
+			display:flex;
+			flex-flow:row wrap;
+			justify-content:center;
+			width:80%;
+			height:10%;
+			margin:-25px auto 25px;
+		}
+		.style4>div>.use{
+			width:20%;
+			margin-right:10px;
+		}
+		.style4>div>.use:last-child{margin-right:0px;}
+
+		.style4>p{
+			color:#444;
+			font-size:1.1em;
+			font-weight:600;
+		}
+
 		.web{
 			font-size:1.25em;
 			margin-top:50px;
 		}
+
+		.design{margin-top:50px;}
 
 		.adobe{
 			width:85%;
@@ -2067,14 +2136,14 @@ input, select, textarea {
 		}
 
 		.col-8.col-7-large.col-12-medium>header>h2{
-			font-size:20pt;
+			font-size:1.6em;
 			font-weight:600;
 			text-align: center;
 			line-height:50px;
 			color:#f3f3f3;
 		}
 
-		.col-8.col-7-large.col-12-medium>header>h2>span{font-size:23pt;}
+		.col-8.col-7-large.col-12-medium>header>h2>span{font-size:1em;}
 
 		/*추가한 부분 끝*/
 
