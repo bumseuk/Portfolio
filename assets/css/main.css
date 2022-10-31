@@ -2048,7 +2048,7 @@ input, select, textarea {
 		.style5{position:relative;}
 		.style5>h3{
 			position:absolute;
-			top:32%; left:50%;
+			top:29%; left:50%;
 			transform:translateX(-50%);
 			font-size:1.5em;
 		}
